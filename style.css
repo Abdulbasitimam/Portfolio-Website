@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(4, 78, 53);
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(7, 87, 61);
+  }
+  .left {
+    font-size: 1.5rem;
+  }
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    margin: 23px;
+    list-style: none;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover {
+    color: rgb(8, 139, 98);
+    font-size: 1.02rem;
+  }
+  /* main{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    main section{
+        display: flex;
+    } */
+  .first {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+  }
+  .first > div {
+    width: 30%;
+  }
+  .leftsection {
+    margin: 100px 0;
+    text-align: center;
+    font-size: 3.8rem;
+  }
+  .rightsection img {
+    width: 95%;
+    height: 75%;
+    margin: 50px;
+  }
+  .blue {
+    color: rgb(14, 219, 154);
+  }
+  #element {
+    color: rgb(14, 219, 154);
+  }
+  .second {
+    max-width: 80vw;
+    margin: auto;
+    height: 50vh;
+  }
+  main hr {
+    border: 0;
+    background: rgb(14, 219, 154);
+    height: 0.5px;
+    margin: 50px;
+  }
+  main button {
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: rgb(14, 246, 172);
+    color: rgb(12, 67, 50);
+  }
+  .text-gray {
+    color: gray;
+    font-size: small;
+  }
+  .second .box {
+    background: aliceblue;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+  }
+  .second .desc {
+    margin: 35px;
+  }
+  footer {
+    background-color: rgb(22, 123, 89);
+    height: 200px;
+  }
+  .footer {
+    display: flex;
+    margin: 20px 120px;
+    justify-content: space-evenly;
+  }
+  .footer ul {
+    list-style: none;
+  }
+  .footer ul li {
+    height: 35px;
+  }
+  footer .text-center {
+    text-align: center;
+    color: rgb(54, 184, 141);
+  }
+  main .first .leftsection a {
+    color: rgb(20, 202, 141);
+    font-size: 2rem;
+  }
